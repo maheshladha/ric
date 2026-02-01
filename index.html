@@ -7,70 +7,129 @@
     <title>RIC</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-</head>
-<style>
-
+    <style>
+    header{background-color: #0C2C55;}
+    .companyName{background-color: #EDEDCE;color: #0C2C55;}
+    
+    .nameTrust{
+        color: #CDB885;
+    }
+    p{
+        color: #F0F8A4;
+    }
+    .insulatorscontainer{
+        background-color: #213448;
+    }
+    .groupname{
+        color: whitesmoke;
+    }
+    .subgroupname{
+        color: #F0F8A4;
+    }
 </style>
+
+</head>
 
 <body>
     <header>
         <div class="px-4 py-5 my-5 text-center"> <img class="d-block mx-auto mb-4" src="./Logo.png" alt="" width="200"
                 height="200">
-            <h1 class="display-5 fw-bold text-body-emphasis">ROLEX INDUSTRIAL CORPORATION</h1>
+            <h1 class="display-5 fw-bold companyName">ROLEX INDUSTRIAL CORPORATION</h1>
+            <h2 class="mb-4 nameTrust">"THE NAME YOU CAN TRUST"</h2>
             <div class="col-lg-6 mx-auto">
-                <p class="lead mb-4">Ceramic Insulators | Overhead Lines Materials | Earthing Materials & Much more</p>
+                <p class="lead mb-4">Ceramic Insulators | KitKats | Overhead Lines Materials | Earthing Materials & Much more</p>
             </div>
         </div>
     </header>
     <main>
-        <div class="row featurette">
-            <div class="col-md-7">
-                <h2 class="featurette-heading fw-normal lh-1 text-center">Insulators</h2>
-            </div>
-        <div class="container">
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+        <div class="container insulatorscontainer">
+            <h1 class="featurette-heading fw-normal lh-1 text-center insulatorheading groupname">CERAMIC INSULATORS</h1>
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <h1 class="subgroupname">Disc Insulators</h1>
+                    <img src="./Ceramic Insulators/DiscInsulator.png" class="d-block w-100" alt="DiscInsulator">
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./Insulators 1.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./Insulators 2.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./Insulators 1.png" class="d-block w-100" alt="...">
-                    </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <h1 class="subgroupname">Post Insulators</h1>
+                    <img src="./Ceramic Insulators/PostInsulator.png" class="d-block w-100" alt="DiscInsulator">
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <h1 class="subgroupname">Shackle Insulators</h1>
+                    <img src="./Ceramic Insulators/ShackleInsulator.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <h1 class="subgroupname">Stay Insulators</h1>
+                    <img src="./Ceramic Insulators/StayInsulator.png" class="d-block w-100" alt="...">
+                </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
         </div>
         <hr class=" featurette-divider">
-        <div class="row featurette">
-            <div class="col-md-7">
-                <h2 class="featurette-heading fw-normal lh-1 text-center">Insulators</h2>
+       <div class="container insulatorscontainer">
+            <h1 class="featurette-heading fw-normal lh-1 text-center insulatorheading" style="color: whitesmoke;">Kitkats</h1>
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="./Insulators 1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./Insulators 2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./Insulators 1.png" class="d-block w-100" alt="...">
+                </div>
             </div>
-            <div class="col-md-5">
-                <img src="./Insulators 1.png" alt="" class="featurette-image img-fluid mx-auto alt=" Description of
-                    your image" width="500" height="500" loading="lazy"">
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
         </div>
         <hr class=" featurette-divider">
+       <div class="container insulatorscontainer">
+            <h1 class="featurette-heading fw-normal lh-1 text-center insulatorheading" style="color: whitesmoke;">Overhead Line Materials</h1>
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="./Insulators 1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./Insulators 2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./Insulators 1.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        </div>
+        
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
