@@ -22,15 +22,43 @@
     }
     .groupname{
         color: whitesmoke;
+        font-family: "Walter Turncoat", cursive;
+        font-weight: 400;
+        font-style: normal;
+        text-transform: uppercase;
     }
     .subgroupname{
         color: #F0F8A4;
+        font-family: "Sriracha", cursive;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+    }
+    .bulkorders{
+        font-family: "Carter One", system-ui;
+        font-weight: 400;
+        font-style: normal;
     }
     .footeraddress{
         color: #CDB885;
     }
-</style>
+    .courgette-regular {
+        font-family: "Courgette", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .name{
+        font-family: "Kings", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
 
+
+
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -38,7 +66,7 @@
         <div class="px-4 py-5 my-5 text-center"> <img class="d-block mx-auto mb-4" src="./Logo.png" alt="" width="200"
                 height="200">
             <h1 class="display-5 fw-bold companyName">ROLEX INDUSTRIAL CORPORATION</h1>
-            <h2 class="mb-4 nameTrust">"THE NAME YOU CAN TRUST"</h2>
+            <h2 class="mb-4 nameTrust courgette-regular">"THE NAME YOU CAN TRUST"</h2>
             <div class="col-lg-6 mx-auto">
                 <p class="lead mb-4">Transmission Materials | Ceramic Insulators | Epoxy Insulators | Polymer Insulators | Earthing Materials | Kitkats & Much more</p>
             </div>
@@ -46,7 +74,7 @@
     </header>
     <main class="container">
         <div class="container insulatorscontainer">
-            <h1 class="featurette-heading fw-normal lh-1 text-center insulatorheading" style="color: whitesmoke;">Transmission Line Materials</h1>
+            <h1 class="featurette-heading fw-normal lh-1 text-center groupname" style="color: whitesmoke;">Transmission Line Materials</h1>
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="2000">
@@ -72,7 +100,7 @@
         </div>
         <hr class=" featurette-divider">
         <div class="container insulatorscontainer">
-            <h1 class="featurette-heading fw-normal lh-1 text-center insulatorheading groupname">Ceramic Insulators</h1>
+            <h1 class="featurette-heading fw-normal lh-1 text-center groupname groupname">Ceramic Insulators</h1>
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="2000">
@@ -110,7 +138,7 @@
         </div>
         <hr class=" featurette-divider">
        <div class="container insulatorscontainer">
-            <h1 class="featurette-heading fw-normal lh-1 text-center insulatorheading" style="color: whitesmoke;">Epoxy Insulators</h1>
+            <h1 class="featurette-heading fw-normal lh-1 text-center groupname" style="color: whitesmoke;">Epoxy Insulators</h1>
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="2000">
@@ -148,7 +176,7 @@
         </div>
         <hr class=" featurette-divider">
         <div class="container insulatorscontainer">
-            <h1 class="featurette-heading fw-normal lh-1 text-center insulatorheading" style="color: whitesmoke;">Polymer Insulators</h1>
+            <h1 class="featurette-heading fw-normal lh-1 text-center groupname" style="color: whitesmoke;">Polymer Insulators</h1>
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="2000">
@@ -170,7 +198,7 @@
         </div>
         <hr class=" featurette-divider">
         </div><div class="container insulatorscontainer">
-            <h1 class="featurette-heading fw-normal lh-1 text-center insulatorheading" style="color: whitesmoke;">Earthing Materials</h1>
+            <h1 class="featurette-heading fw-normal lh-1 text-center groupname" style="color: whitesmoke;">Earthing Materials</h1>
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="2000">
@@ -258,7 +286,7 @@
         </div>
         <hr class=" featurette-divider">
         </div><div class="container insulatorscontainer">
-            <h1 class="featurette-heading fw-normal lh-1 text-center insulatorheading" style="color: whitesmoke;">Kitkats</h1>
+            <h1 class="featurette-heading fw-normal lh-1 text-center groupname" style="color: whitesmoke;">Kitkats</h1>
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="2000">
@@ -285,15 +313,13 @@
         </div>
        <hr class=" featurette-divider">
     </main>
-    <hr class=" featurette-divider">
-    <h3 style="text-align: center; background-color: #0C2C55; color: white;">WE ALSO TAKE BULK ORDERS</h3>
-    <hr class=" featurette-divider">
-    <footer>
-        <div class="card container" style="width: 18rem;">
+    <hr class="featurette-divider mb-0">
+    <footer style="background-color: #213448;">
+        <div class="card container" style="width: 18rem; background-color: #FFF2C6;">
             <a href="tel: 9051010405"><img src="./call-svgrepo-com.png" class="card-img-top" alt="..."></a>
             <div class="card-body">
-                <h2 style="text-align: center;">Arun Damani</h2>
-                <h5 style="text-align: center;">22, Rabindra Sarani, Shop No.271 Kolkata - 73</h5>
+                <h2 style="text-align: center; color: #872341;" class="name">ARUN DAMANI</h2>
+                <h5 style="text-align: center; color: #670D2F;">22, Rabindra Sarani, Shop No.271, Kol - 73</h5>
             </div>
         </div>
         
